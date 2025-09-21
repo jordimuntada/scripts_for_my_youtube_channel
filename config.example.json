@@ -1,0 +1,20 @@
+{
+  "youtube": {
+    "api_key": "YOUR_YOUTUBE_API_KEY_HERE",
+    "channel_id": "YOUR_CHANNEL_ID_HERE"
+  },
+  "logging": {
+    "level": "INFO",
+    "file": "logs/app.log"
+  },
+  "paths": {
+    "output_dir": "output",
+    "temp_dir": "temp",
+    "assets_dir": "assets"
+  },
+  "settings": {
+    "max_retries": 3,
+    "timeout": 30,
+    "batch_size": 10
+  }
+}
